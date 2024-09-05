@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Tom Crljen">
+        <meta name="description" content="2010 Ford Ranger PK">
+        <title>My Ford Ranger</title>
+        <link rel="icon" href="images/Ute.png" type="image/x-icon">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="stylesheet" href="footer.css">
+
+    </head> 
+
+    <body>
+        <header>
+            <h1>My Ford Ranger</h1>
+            <label for="hamburger_checkbox">
+                <img src="images/Hamburger_icon.svg" alt="Menu" id="hamburger_image">
+            </label>
+            <input type="checkbox" id="hamburger_checkbox">
+            <nav>
+                <a href="index.html" >Home</a>
+                <a href="photos.html">Photos</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active_nav">Contact</a>
+            </nav>
+        </header>
+
+        <form id="contact_form" method="post">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" autocomplete="given-name">
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" autocomplete="family-name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" autocomplete="email"><br>
+            <label for="mobile">Mobile:</label><br>
+            <input type="text" id="mobile" name="mobile" autocomplete="tel"><br>
+            <label for="message">Message</label><br>
+            <textarea name="message" id="message"></textarea><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        
+        <footer>
+            <p> 
+                My Ford Ranger &copy; 2024 by Tom Crljen is licensed under
+                <br> 
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">CC BY-SA 4.0
+                        <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt="">
+                        <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+                        <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt="">
+                    </a>
+            </p>
+        </footer>
+        
+    </body>
+
+</html>

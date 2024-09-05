@@ -1,0 +1,71 @@
+main > div {
+    background-color: #49a0e2;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+main > div > h2 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+main > div > p {
+    font-size: 20px;
+}
+
+main {
+    background-color: black;
+    display: grid;
+    grid-template-areas: 
+    "."
+    "."
+    "."
+    "."
+    "."
+    ".";
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    #container1 {
+        grid-area: area3;
+    
+    }
+
+    #container2 {
+        grid-area: area1;
+    }
+
+    #container3 {
+        grid-area: area2;
+    }
+
+    #container4 {
+        grid-area: area5;
+    }
+
+    #container5 {
+        grid-area: area6;
+    }
+    
+
+    #conatainer6 {
+        grid-area: area4;
+    }
+
+    main {
+        grid-template-areas: 
+        "area1 area3 area5"
+        "area2 area3 area5"
+        "area2 area4 area6"
+        
+    }
+  
+
+}
